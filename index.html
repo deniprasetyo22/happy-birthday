@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
   <link href="https://feeldreams.github.io/heihbd/style.css" rel="stylesheet" type="text/css" />
   <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
 
   <head>
     <title>Happy Birthday Laila ❤️</title>
@@ -47,7 +47,7 @@
       /* DESKTOP FIX (tidak repeat, tidak gepeng) */
       @media (min-width: 1024px) {
         #bodyblur {
-          background: url('/assets/Laila.jpeg') no-repeat center center;
+          background: url('assets/Laila.jpeg') no-repeat center center;
           background-size: contain;
           background-color: #000;
         }
@@ -69,11 +69,11 @@
   <body>
 
     <!-- Ganti Audio di sini -->
-    <audio src="/assets/music.mp3" id="linkmp3" class="sembunyi"></audio>
+    <audio src="assets/music.mp3" id="linkmp3" class="sembunyi"></audio>
 
     <div id="bodyblur">
       <!-- Wallpaper -->
-      <img src="/assets/Laila.jpeg" id="wallpaper" />
+      <img src="assets/Laila.jpeg" id="wallpaper" />
       <div id="beneranblur"></div>
     </div>
 
@@ -172,7 +172,7 @@
         window.location.href = "https://api.whatsapp.com/send?phone=6287764416776&text=" + encodeURIComponent(pesanwhatsapp);
       }
     </script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>
